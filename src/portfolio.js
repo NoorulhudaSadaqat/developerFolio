@@ -151,23 +151,36 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend (React.js, Next.js, React Native)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Backend (Node.js, Express.js, NestJS)",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
+      Stack: "Web3 (Ethers.js, MetaMask, The Graph)",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Database (MongoDB, PostgreSQL)",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "DevOps & Cloud (Firebase, AWS, Heroku)",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Programming (JavaScript, TypeScript)",
+      progressPercentage: "90%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
+
 
 // Work experience section
 
