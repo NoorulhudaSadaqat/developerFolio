@@ -12,7 +12,7 @@ export default function StartupProject() {
   }
 
   const { isDark } = useContext(StyleContext);
-  const defaultImage = require("../../assets/images/projectDefault.png");
+  const defaultImage = require("../../assets/images/defaultProject.png");
 
   if (!bigProjects.display) return null;
 

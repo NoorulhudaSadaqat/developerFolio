@@ -177,7 +177,7 @@ const workExperiences = {
     {
       role: "Senior Full Stack Developer",
       company: "CodeCraft",
-      companylogo: require("./assets/images/codecraftLogo.png"), // Replace with actual logo
+      companylogo: require("./assets/images/codecraft.jpeg"), // Replace with actual logo
       date: "July 2024 – Present",
       desc: "Worked remotely with a New Zealand-based healthtech startup to build mobile and web apps from scratch.",
       descBullets: [
@@ -189,7 +189,7 @@ const workExperiences = {
     {
       role: "MERN Stack Developer",
       company: "RenesisTech",
-      companylogo: require("./assets/images/renesisLogo.png"),
+      companylogo: require("./assets/images/renesis.jpeg"),
       date: "Dec 2023 – Oct 2024",
       desc: "Led development of Web3 marketplace features and smart contract integrations.",
       descBullets: [
@@ -200,7 +200,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "GoSaaS Labs",
-      companylogo: require("./assets/images/gosaasLogo.png"),
+      companylogo: require("./assets/images/gosaas.png"),
       date: "Aug 2022 – Dec 2023",
       desc: "Worked on product enhancement and frontend optimization in a team of 12+ engineers.",
       descBullets: [
@@ -211,7 +211,7 @@ const workExperiences = {
     {
       role: "Associate Software Engineer",
       company: "The Dev Corporate",
-      companylogo: require("./assets/images/devcorpLogo.png"),
+      companylogo: require("./assets/images/tdc.jpeg"),
       date: "Oct 2021 – July 2022",
       desc: "Integrated third-party APIs and built backend modules using NestJS.",
       descBullets: [
@@ -222,7 +222,7 @@ const workExperiences = {
     {
       role: "MERN Stack Intern",
       company: "Tbox Solutionz",
-      companylogo: require("./assets/images/tboxLogo.png"),
+      companylogo: require("./assets/images/tbox.jpeg"),
       date: "July 2021 – Sept 2021",
       desc: "Contributed to a live MERN project and resolved over 13 bugs as part of a 12-member team.",
       descBullets: [
