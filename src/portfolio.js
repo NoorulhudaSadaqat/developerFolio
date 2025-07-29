@@ -23,23 +23,23 @@ const greeting = {
   username: "Noor Ul Huda Sadaqat",
   title: "Hi all, I'm Noor",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A Full Stack Developer with 4+ years of experience building scalable web and mobile apps using React.js, Next.js, Node.js, NestJS, and React Native, along with integrations in Web3, Firebase, and AWS."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1dQDt7tV4icw_RKiP5zkUzxZPxdbfIi-K/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/NoorulhudaSadaqat",
+  linkedin: "https://www.linkedin.com/in/NoorulhudaSadaqat/",
+  gmail: "noorulhudasaqat48@gmail.com",
+  // gitlab: "",
+  // facebook: "https://www.facebook.com/",
+  medium: "https://medium.com/@noorulhuda48",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,76 +49,85 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Full Stack Developer with hands-on experience in building scalable web and mobile apps using modern stacks",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Build responsive and high-performance user interfaces using React.js, Next.js, and React Native"),
+    emoji("⚡ Develop robust backend APIs using Node.js, Express.js, and NestJS with MongoDB or PostgreSQL"),
+    emoji("⚡ Implement Web3 functionality with MetaMask, Ethers.js, and The Graph for decentralized apps"),
+    emoji("⚡ Integrate Firebase for authentication, analytics, and real-time data storage"),
+    emoji("⚡ Use AWS S3, EC2, and Pinata for file handling and decentralized storage"),
+    emoji("⚡ Build dynamic admin panels, quiz platforms, and health-focused mobile experiences")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js" // adjust if you want to replace with a custom icon
+    },
+    {
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Next.js",
+      fontAwesomeClassname: "fas fa-code" // placeholder icon
+    },
+    {
+      skillName: "React Native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "NestJS",
+      fontAwesomeClassname: "fas fa-cube" // placeholder icon
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "docker",
+      skillName: "Ethers.js",
+      fontAwesomeClassname: "fab fa-ethereum" // closest match
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Education Section
 
@@ -126,24 +135,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "PUCIT(currently named FCIT)",
+      logo: require("./assets/images/pucitLogo.png"),
+      subHeader: "Bachelour of Science in Information technology",
+      duration: "Oct 2018 - July 2022",
+      desc: "Graduated with 3.47 CGPA",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Been an active member of 3+ co-curricular societies",
+        "Won merit-based scholarship"
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -171,35 +172,67 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Full Stack Developer",
+      company: "CodeCraft",
+      companylogo: require("./assets/images/codecraftLogo.png"), // Replace with actual logo
+      date: "July 2024 – Present",
+      desc: "Worked remotely with a New Zealand-based healthtech startup to build mobile and web apps from scratch.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built 5+ key features for a React Native healthcare app including login, splash screen, and subscription flows",
+        "Created a dynamic quiz generator platform with subdomain automation and Meta Pixel tracking",
+        "Developed a customizable admin panel managing 200+ live quizzes"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "MERN Stack Developer",
+      company: "RenesisTech",
+      companylogo: require("./assets/images/renesisLogo.png"),
+      date: "Dec 2023 – Oct 2024",
+      desc: "Led development of Web3 marketplace features and smart contract integrations.",
+      descBullets: [
+        "Built decentralized app with minting, bidding, buying, and wallet authentication using Ethers.js",
+        "Integrated USDT and Polygon contracts to improve transaction performance"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "GoSaaS Labs",
+      companylogo: require("./assets/images/gosaasLogo.png"),
+      date: "Aug 2022 – Dec 2023",
+      desc: "Worked on product enhancement and frontend optimization in a team of 12+ engineers.",
+      descBullets: [
+        "Improved UI and reduced codebase size by over 80% via refactoring",
+        "Mentored 3 junior developers and built 40+ Jest test cases for better stability"
+      ]
+    },
+    {
+      role: "Associate Software Engineer",
+      company: "The Dev Corporate",
+      companylogo: require("./assets/images/devcorpLogo.png"),
+      date: "Oct 2021 – July 2022",
+      desc: "Integrated third-party APIs and built backend modules using NestJS.",
+      descBullets: [
+        "Integrated Stripe, SendGrid, and OneSignal in 3+ Express apps",
+        "Delivered a full NestJS app solo, boosting team performance by 30%"
+      ]
+    },
+    {
+      role: "MERN Stack Intern",
+      company: "Tbox Solutionz",
+      companylogo: require("./assets/images/tboxLogo.png"),
+      date: "July 2021 – Sept 2021",
+      desc: "Contributed to a live MERN project and resolved over 13 bugs as part of a 12-member team.",
+      descBullets: [
+        "Completed 4+ practice projects and learned SDLC fundamentals",
+        "Collaborated on a real-time application and worked on production issues"
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -212,41 +245,145 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Startups and platforms where I led full stack or Web3 development",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/defaultProject.png"),
+      projectName: "BLTC",
+      projectDesc: "A health-focused mobile app providing personalized tracking and treatment features.",
+      projectDetails: [
+        "Built login, subscription, and profile flows in React Native",
+        "Integrated promo code support and in-app purchase logic",
+        "Collaborated with backend team to design key API contracts"
+      ],
+      techStack: ["React Native", "Redux", "Node.js", "Firebase", "Stripe"],
       footerLink: [
         {
+          name: "Visit Mobile App",
+          url: "https://apps.apple.com/us/app/bltc-life-transformation-app/id6746760838"
+        },
+        {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://app.bltc.io"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/defaultProject.png"),
+      projectName: "Health Quiz",
+      projectDesc: "A customizable quiz platform with subdomain automation and Meta Pixel tracking for health assessments.",
+      projectDetails: [
+        "Built the entire quiz builder end-to-end from scratch and implemented CI/CD pipeline",
+        "Implemented Cloudflare API to auto-provision subdomains for 20+ quizzes",
+        "Tracked user flow with Meta Pixel on the final step to aid marketing optimization"
+      ],
+      techStack: ["React.js", "Node.js", "Firebase", "MongoDB", "Cloudflare", "Meta Pixel", "AWS"],
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://quiz.health/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/defaultProject.png"),
+      projectName: "L'Arts",
+      projectDesc: "A decentralized NFT marketplace for art assets with smart contract functionality.",
+      projectDetails: [
+        "Built minting, lazy minting, bidding, and claiming flows with full Web3 wallet integration",
+        "Optimized transactions using USDT and Polygon contracts",
+        "Enabled social login with Google and Apple for smooth onboarding"
+      ],
+      techStack: ["Next.js", "Ethers.js", "Polygon", "Firebase", "MongoDB"],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://larts.net/"
+        }
+      ]
+    },
+    
+    {
+      image: require("./assets/images/defaultProject.png"),
+      projectName: "HutFin",
+      projectDesc: "A real estate investment platform using blockchain for secure transactions.",
+      projectDetails: [
+        "Built core modules for wallet authentication, asset listing, and Web3 bidding",
+        "Integrated Ethers.js and smart contracts for real-time property transactions",
+        "Optimized wallet-to-wallet flow and ensured smooth dApp onboarding"
+      ],
+      techStack: ["React.js", "Node.js", "Ethers.js", "Web3", "MongoDB"],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://hutfin.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/defaultProject.png"),
+      projectName: "Depicted 3D",
+      projectDesc: "A 3D NFT visualization and marketplace platform built with Web3 and real-time caching technologies.",
+      projectDetails: [
+        "Developed dynamic NFT preview handling using GLB, OBJ, and MTL file formats",
+        "Used The Graph for fast NFT metadata indexing and querying",
+        "Implemented Redis for caching expensive queries and improving performance",
+        "Handled wallet-based filtering, NFT detail pages, and metadata sync"
+      ],
+      techStack: ["React.js", "Node.js", "The Graph", "Redis", "Three.js", "Ethers.js"],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://depicted.ai/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/defaultProject.png"),
+      projectName: "Health Assistant",
+      projectDesc: "A medical support platform with a responsive frontend for patient management.",
+      projectDetails: [
+        "Built responsive pages with Ant Design and React.js",
+        "Implemented lazy loading and improved loading times by 40%",
+        "Used Google reCAPTCHA and context APIs for app-wide security and state management"
+      ],
+      techStack: ["React.js", "Ant Design", "TypeScript", "BrowserStack", "Google reCAPTCHA"],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.touchmedical.ca/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/defaultProject.png"),
+      projectName: "Mahnty",
+      projectDesc: "A full-stack project focused on file storage and scalable data APIs.",
+      projectDetails: [
+        "Designed MongoDB schema and REST APIs from scratch",
+        "Handled AWS S3 file storage and Heroku deployment",
+        "Led a team of 5 as part of the final year university capstone"
+      ],
+      techStack: ["Node.js", "Express", "MongoDB", "AWS S3", "Heroku"],
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://mahnty.com/"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
+
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -300,7 +437,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +461,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +480,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +493,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +509,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3404959795",
+  email_address: "noorulhudasadaqat48@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
