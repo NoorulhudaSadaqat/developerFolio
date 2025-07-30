@@ -76,6 +76,9 @@ function Header() {
               <a href="#resume">Resume</a>
             </li>
           )}
+           <li>
+            <a href="#learning">Currently Learning</a>
+          </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>
