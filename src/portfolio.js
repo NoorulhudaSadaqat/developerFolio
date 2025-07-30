@@ -135,7 +135,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "PUCIT(currently named FCIT)",
+      schoolName: "PUCIT",
       logo: require("./assets/images/pucitLogo.png"),
       subHeader: "Bachelour of Science in Information technology",
       duration: "Oct 2018 - July 2022",
@@ -192,11 +192,11 @@ const workExperiences = {
       company: "CodeCraft",
       companylogo: require("./assets/images/codecraft.jpeg"), // Replace with actual logo
       date: "July 2024 – Present",
-      desc: "Worked remotely with a New Zealand-based healthtech startup to build mobile and web apps from scratch.",
+      // desc: "Worked remotely with a New Zealand-based healthtech startup to build mobile and web apps from scratch.",
       descBullets: [
-        "Built 5+ key features for a React Native healthcare app including login, splash screen, and subscription flows",
-        "Created a dynamic quiz generator platform with subdomain automation and Meta Pixel tracking",
-        "Developed a customizable admin panel managing 200+ live quizzes"
+        "Built 5+ core features for a healthcare app in React Native, including login, splash screen, and subscriptions with promo codes.",
+        "Helped launch the app from scratch, handling UI, state management, and API integration in a fully remote setup",
+        "Built a quiz generator platform end to end, with subdomain automation, UI customisation and Meta Pixel tracking, powering 100+ quizzes"
       ]
     },
     {
@@ -204,10 +204,12 @@ const workExperiences = {
       company: "RenesisTech",
       companylogo: require("./assets/images/renesis.jpeg"),
       date: "Dec 2023 – Oct 2024",
-      desc: "Led development of Web3 marketplace features and smart contract integrations.",
+      // desc: "Led development of Web3 marketplace features and smart contract integrations.",
       descBullets: [
-        "Built decentralized app with minting, bidding, buying, and wallet authentication using Ethers.js",
-        "Integrated USDT and Polygon contracts to improve transaction performance"
+        "Developed 2 major decentralised Web 3.0 applications, enhancing user engagement and security.",
+        "Implemented smart contract integrations with Polygon and USDT, optimising reliability and transaction processes",
+        "Collaborated with a team of 10+ and contributed to 6+ projects building 2 from scratch"
+
       ]
     },
     {
@@ -215,10 +217,11 @@ const workExperiences = {
       company: "GoSaaS Labs",
       companylogo: require("./assets/images/gosaas.png"),
       date: "Aug 2022 – Dec 2023",
-      desc: "Worked on product enhancement and frontend optimization in a team of 12+ engineers.",
+      // desc: "Worked on product enhancement and frontend optimization in a team of 12+ engineers.",
       descBullets: [
-        "Improved UI and reduced codebase size by over 80% via refactoring",
-        "Mentored 3 junior developers and built 40+ Jest test cases for better stability"
+        "Maintenance and enhancement of product and added new features according to client requirements, collaborating with a team of 12+",
+        "Mentored 3 junior developers on React and Node.js, and documented best practices for my team.",
+        "Developed modules to improve application performance, resulting in 25% more user satisfaction"
       ]
     },
     {
@@ -226,10 +229,11 @@ const workExperiences = {
       company: "The Dev Corporate",
       companylogo: require("./assets/images/tdc.jpeg"),
       date: "Oct 2021 – July 2022",
-      desc: "Integrated third-party APIs and built backend modules using NestJS.",
+      // desc: "Integrated third-party APIs and built backend modules using NestJS.",
       descBullets: [
-        "Integrated Stripe, SendGrid, and OneSignal in 3+ Express apps",
-        "Delivered a full NestJS app solo, boosting team performance by 30%"
+        "Integrated 3rd party APIs like Stripe for payment module, SendGrid for email verification, and Onesignal for push notifications in 3+ applications built using Express.js & Node.js",
+        "Constructed server-side web services & APIs, designed schemas, and connected databases to local and deployed servers for 3+ apps.",
+        "Built an entire app's RESTful APIs solely using Nest.js even without being trained."
       ]
     },
     {
@@ -237,10 +241,11 @@ const workExperiences = {
       company: "Tbox Solutionz",
       companylogo: require("./assets/images/tbox.jpeg"),
       date: "July 2021 – Sept 2021",
-      desc: "Contributed to a live MERN project and resolved over 13 bugs as part of a 12-member team.",
+      // desc: "Contributed to a live MERN project and resolved over 13 bugs as part of a 12-member team.",
       descBullets: [
-        "Completed 4+ practice projects and learned SDLC fundamentals",
-        "Collaborated on a real-time application and worked on production issues"
+        "Learned the entire MERN Stack. Completed 4+ practice projects.",
+        "Contributed on a live project and fixed 13+ bugs.",
+        "Collaborated with a team of 12+ and learned SDLC."
       ]
     }
   ]
@@ -252,7 +257,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -533,6 +538,19 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
+const learningSection = {
+  display: true,
+  title: "Currently Exploring",
+  subtitle: "Learning how to build intelligent, AI-powered experiences",
+  learning: [
+    "🤖 AI Agents: understanding how autonomous agents work and can be orchestrated",
+    "🔗 LLM Integration: integrating LLMs via APIs and using tools like LangChain for chaining logic",
+    "✍️ Prompt Engineering: writing better prompts for more accurate and controlled model behavior"
+  ]
+};
+
+
+
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
@@ -553,5 +571,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  learningSection
 };

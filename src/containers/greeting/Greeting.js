@@ -43,7 +43,7 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <a
                     href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    download="Noor Ul Huda Sadaqat- Full Stack developer.pdf"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
