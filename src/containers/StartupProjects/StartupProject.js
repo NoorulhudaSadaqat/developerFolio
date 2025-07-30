@@ -65,14 +65,6 @@ export default function StartupProject() {
     My role
   </span>
 </div>
-
-
-        {/* <button
-          className="see-more-button"
-          onClick={() => setSelectedProject(project)}
-        >
-          My role
-        </button> */}
       </div>
     </div>
   );
