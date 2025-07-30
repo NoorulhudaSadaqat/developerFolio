@@ -270,10 +270,11 @@ const bigProjects = {
       image: require("./assets/images/defaultProject.png"),
       projectName: "BLTC",
       projectDesc: "A health-focused mobile app providing personalized tracking and treatment features.",
-      projectDetails: [
-        "Built login, subscription, and profile flows in React Native",
-        "Integrated promo code support and in-app purchase logic",
-        "Collaborated with backend team to design key API contracts"
+      bulletPoints: [
+        "Created a dynamic quiz module integrating RESTful APIs",
+        "Designed and implemented the subscription system with promo code support",
+        "Handled user onboarding with Firebase Authentication including login, reset/forgot password",
+        "Implemented splash screen and user-friendly navigation for better UX"
       ],
       techStack: ["React Native", "Redux", "Node.js", "Firebase", "Stripe"],
       footerLink: [
