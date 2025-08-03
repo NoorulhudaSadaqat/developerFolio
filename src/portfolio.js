@@ -270,7 +270,7 @@ const bigProjects = {
       image: require("./assets/images/defaultProject.png"),
       projectName: "BLTC",
       projectDesc: "A health-focused mobile app providing personalized tracking and treatment features.",
-      bulletPoints: [
+      projectDetails: [
         "Created a dynamic quiz module integrating RESTful APIs",
         "Designed and implemented the subscription system with promo code support",
         "Handled user onboarding with Firebase Authentication including login, reset/forgot password",
