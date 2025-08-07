@@ -76,10 +76,10 @@ function Header() {
               <a href="#resume">Resume</a>
             </li>
           )}
-           <li>
+          <li>
             <a href="#projects">Projects</a>
           </li>
-           <li>
+          <li>
             <a href="#learning">Currently Learning</a>
           </li>
           <li>

@@ -49,14 +49,27 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Full Stack Developer with hands-on experience in building scalable web and mobile apps using modern stacks",
+  subTitle:
+    "Full Stack Developer with hands-on experience in building scalable web and mobile apps using modern stacks",
   skills: [
-    emoji("⚡ Build responsive and high-performance user interfaces using React.js, Next.js, and React Native"),
-    emoji("⚡ Develop robust backend APIs using Node.js, Express.js, and NestJS with MongoDB or PostgreSQL"),
-    emoji("⚡ Implement Web3 functionality with MetaMask, Ethers.js, and The Graph for decentralized apps"),
-    emoji("⚡ Integrate Firebase for authentication, analytics, and real-time data storage"),
-    emoji("⚡ Use AWS S3, EC2, and Pinata for file handling and decentralized storage"),
-    emoji("⚡ Build dynamic admin panels, quiz platforms, and health-focused mobile experiences")
+    emoji(
+      "⚡ Build responsive and high-performance user interfaces using React.js, Next.js, and React Native"
+    ),
+    emoji(
+      "⚡ Develop robust backend APIs using Node.js, Express.js, and NestJS with MongoDB or PostgreSQL"
+    ),
+    emoji(
+      "⚡ Implement Web3 functionality with MetaMask, Ethers.js, and The Graph for decentralized apps"
+    ),
+    emoji(
+      "⚡ Integrate Firebase for authentication, analytics, and real-time data storage"
+    ),
+    emoji(
+      "⚡ Use AWS S3, EC2, and Pinata for file handling and decentralized storage"
+    ),
+    emoji(
+      "⚡ Build dynamic admin panels, quiz platforms, and health-focused mobile experiences"
+    )
   ],
 
   softwareSkills: [
@@ -128,7 +141,6 @@ const skillsSection = {
   display: true
 };
 
-
 // Education Section
 
 const educationInfo = {
@@ -144,7 +156,7 @@ const educationInfo = {
         "Been an active member of 3+ co-curricular societies",
         "Won merit-based scholarship"
       ]
-    },
+    }
   ]
 };
 
@@ -181,7 +193,6 @@ const techStack = {
   displayCodersrank: false
 };
 
-
 // Work experience section
 
 const workExperiences = {
@@ -209,7 +220,6 @@ const workExperiences = {
         "Developed 2 major decentralised Web 3.0 applications, enhancing user engagement and security.",
         "Implemented smart contract integrations with Polygon and USDT, optimising reliability and transaction processes",
         "Collaborated with a team of 10+ and contributed to 6+ projects building 2 from scratch"
-
       ]
     },
     {
@@ -251,7 +261,6 @@ const workExperiences = {
   ]
 };
 
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -269,7 +278,8 @@ const bigProjects = {
     {
       image: require("./assets/images/defaultProject.png"),
       projectName: "BLTC",
-      projectDesc: "A health-focused mobile app providing personalized tracking and treatment features.",
+      projectDesc:
+        "A health-focused mobile app providing personalized tracking and treatment features.",
       projectDetails: [
         "Created a dynamic quiz module integrating RESTful APIs",
         "Designed and implemented the subscription system with promo code support",
@@ -291,13 +301,22 @@ const bigProjects = {
     {
       image: require("./assets/images/defaultProject.png"),
       projectName: "Health Quiz",
-      projectDesc: "A customizable quiz platform with subdomain automation and Meta Pixel tracking for health assessments.",
+      projectDesc:
+        "A customizable quiz platform with subdomain automation and Meta Pixel tracking for health assessments.",
       projectDetails: [
         "Built the entire quiz builder end-to-end from scratch and implemented CI/CD pipeline",
         "Implemented Cloudflare API to auto-provision subdomains for 20+ quizzes",
         "Tracked user flow with Meta Pixel on the final step to aid marketing optimization"
       ],
-      techStack: ["React.js", "Node.js", "Firebase", "MongoDB", "Cloudflare", "Meta Pixel", "AWS"],
+      techStack: [
+        "React.js",
+        "Node.js",
+        "Firebase",
+        "MongoDB",
+        "Cloudflare",
+        "Meta Pixel",
+        "AWS"
+      ],
       footerLink: [
         {
           name: "Visit Website",
@@ -308,7 +327,8 @@ const bigProjects = {
     {
       image: require("./assets/images/defaultProject.png"),
       projectName: "L'Arts",
-      projectDesc: "A decentralized NFT marketplace for art assets with smart contract functionality.",
+      projectDesc:
+        "A decentralized NFT marketplace for art assets with smart contract functionality.",
       projectDetails: [
         "Built minting, lazy minting, bidding, and claiming flows with full Web3 wallet integration",
         "Optimized transactions using USDT and Polygon contracts",
@@ -322,11 +342,12 @@ const bigProjects = {
         }
       ]
     },
-    
+
     {
       image: require("./assets/images/defaultProject.png"),
       projectName: "HutFin",
-      projectDesc: "A real estate investment platform using blockchain for secure transactions.",
+      projectDesc:
+        "A real estate investment platform using blockchain for secure transactions.",
       projectDetails: [
         "Built core modules for wallet authentication, asset listing, and Web3 bidding",
         "Integrated Ethers.js and smart contracts for real-time property transactions",
@@ -343,14 +364,22 @@ const bigProjects = {
     {
       image: require("./assets/images/defaultProject.png"),
       projectName: "Depicted 3D",
-      projectDesc: "A 3D NFT visualization and marketplace platform built with Web3 and real-time caching technologies.",
+      projectDesc:
+        "A 3D NFT visualization and marketplace platform built with Web3 and real-time caching technologies.",
       projectDetails: [
         "Developed dynamic NFT preview handling using GLB, OBJ, and MTL file formats",
         "Used The Graph for fast NFT metadata indexing and querying",
         "Implemented Redis for caching expensive queries and improving performance",
         "Handled wallet-based filtering, NFT detail pages, and metadata sync"
       ],
-      techStack: ["React.js", "Node.js", "The Graph", "Redis", "Three.js", "Ethers.js"],
+      techStack: [
+        "React.js",
+        "Node.js",
+        "The Graph",
+        "Redis",
+        "Three.js",
+        "Ethers.js"
+      ],
       footerLink: [
         {
           name: "Visit Website",
@@ -361,13 +390,20 @@ const bigProjects = {
     {
       image: require("./assets/images/defaultProject.png"),
       projectName: "Health Assistant",
-      projectDesc: "A medical support platform with a responsive frontend for patient management.",
+      projectDesc:
+        "A medical support platform with a responsive frontend for patient management.",
       projectDetails: [
         "Built responsive pages with Ant Design and React.js",
         "Implemented lazy loading and improved loading times by 40%",
         "Used Google reCAPTCHA and context APIs for app-wide security and state management"
       ],
-      techStack: ["React.js", "Ant Design", "TypeScript", "BrowserStack", "Google reCAPTCHA"],
+      techStack: [
+        "React.js",
+        "Ant Design",
+        "TypeScript",
+        "BrowserStack",
+        "Google reCAPTCHA"
+      ],
       footerLink: [
         {
           name: "Visit Website",
@@ -378,7 +414,8 @@ const bigProjects = {
     {
       image: require("./assets/images/defaultProject.png"),
       projectName: "Mahnty",
-      projectDesc: "A full-stack project focused on file storage and scalable data APIs.",
+      projectDesc:
+        "A full-stack project focused on file storage and scalable data APIs.",
       projectDetails: [
         "Designed MongoDB schema and REST APIs from scratch",
         "Handled AWS S3 file storage and Heroku deployment",
@@ -395,8 +432,6 @@ const bigProjects = {
   ],
   display: true
 };
-
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -549,8 +584,6 @@ const learningSection = {
     "✍️ Prompt Engineering: writing better prompts for more accurate and controlled model behavior"
   ]
 };
-
-
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
