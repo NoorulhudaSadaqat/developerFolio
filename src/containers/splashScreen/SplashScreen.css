@@ -6,13 +6,12 @@
   min-height: 100vh;
 }
 
-.splash-animation-container {
-  height: 50vh;
-}
-
 .splash-title-container {
   font-size: 2.5rem;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
 }
 .splash-title {
   font-family: cursive; /* "Agustina Regular" */
@@ -20,4 +19,5 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 20px;
+  text-align: center;
 }
