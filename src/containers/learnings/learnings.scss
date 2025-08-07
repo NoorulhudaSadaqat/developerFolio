@@ -12,7 +12,6 @@
 
 .skills-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
 }
 
 .skills-image-div > img {
@@ -23,6 +22,7 @@
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
+  margin-top: 0;
 }
 .subTitle {
   color: $subTitle;
@@ -48,7 +48,7 @@
   }
   .skills-text-div {
     margin-left: 0px;
-    margin: 20px;
+    margin: 20px 0;
   }
   .skills-text {
     font-size: 16px;
