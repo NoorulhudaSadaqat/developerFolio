@@ -87,7 +87,7 @@ const skillsSection = {
     },
     {
       skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-js" // adjust if you want to replace with a custom icon
+      fontAwesomeClassname: "fab fa-js" 
     },
     {
       skillName: "React.js",
