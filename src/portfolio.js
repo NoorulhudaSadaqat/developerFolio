@@ -562,7 +562,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Open to project discussions and professional connections. You’re welcome to reach out anytime.",
   number: "+92-3404959795",
   email_address: "noorulhudasadaqat48@gmail.com"
 };
